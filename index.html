@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <h1>BMI Calculator</h1>
     <h3>Enter your height and weight below to check your BMI results</h3>
     <form>
         <p>Put your weight in here (KG):</p>
-        <input type="text"/>
+        <input id="weight" type="text">
         <p>And your height in here (CM):</p>
-        <input type="text" />
-        <button>Calculate BMI</button>
+        <input id="height" type="text">
+        <button id="button">Calculate BMI</button>
     </form>
     <h3>Your BMI is 
         which means your are
