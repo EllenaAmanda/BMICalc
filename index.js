@@ -41,5 +41,7 @@ button.addEventListener("click", (event) => {
     console.log(bmiLogic)
     bmiDisplay.textContent = bmiResult.toFixed(1)
     bmiDesc.textContent = bmiLogic
-})
 
+    beratBadan.value = "";
+    tinggiBadan.value = "";
+})

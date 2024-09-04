@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title>   
     <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>BMI Calculator</h1>
-    <h3>Enter your height and weight below to check your BMI results</h3>
-    <form>
-        <p>Put your weight in here (KG):</p>
-        <input id="weight" type="text">
-        <p>And your height in here (CM):</p>
-        <input id="height" type="text">
-        <button id="button">Calculate BMI</button>
-    </form>
-    <h3>Your BMI is <span id = "bmi">...</span>
-        which means your are <span id = "keterangan">...</span>
-    </h3>
+    <div id="container">
+        <h1>Check your BMI</h1>
+        
+        <div class="container1">
+            <h3>Enter your height and weight below to check your BMI results</h3>
+            <form>
+                <p>Put your weight in here (KG):</p>
+                <input id="weight" type="text">
+                <p>And your height in here (CM):</p>
+                <input id="height" type="text">
+                <button id="button">Calculate BMI</button>
+            </form>
+            <p>Your BMI is <span id = "bmi"><b>...</b></span>
+                which means your are <span id = "keterangan"><b>...</b></span>
+            </p>
+        </div>
+
+    </div>
 </body>
 </html>
