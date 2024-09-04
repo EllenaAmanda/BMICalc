@@ -18,13 +18,13 @@ function hitungBMI (BB, TB){
 
 function logicBMI (BMI){
     if (BMI <18.5){
-        return "underweight"
+        return "Underweight"
     }else if (BMI >=18.5 || BMI < 25 ){
-        return "normal weight"
+        return "Normal"
     }else if (BMI >=25|| BMI < 30 ){
-        return "overweight"
+        return "Overweight"
     }else if (BMI > 30){
-        return "obesity"
+        return "Obesity"
     }else {
         return "Error"
     }
@@ -42,6 +42,6 @@ button.addEventListener("click", (event) => {
     bmiDisplay.textContent = bmiResult.toFixed(1)
     bmiDesc.textContent = bmiLogic
 
-    beratBadan.value = "";
-    tinggiBadan.value = "";
+    // beratBadan.value = "";
+    // tinggiBadan.value = "";
 })
